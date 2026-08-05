@@ -1,3 +1,4 @@
+UID	ID	WBS	Task Code	Decision ID	Work Package	Task Type	Schedule Mode	Task Name	Duration (Days)	Predecessors	Resource Names	Task Owner	Planned Work (hrs)	Primary Output	Notes
 200	200	3			Enterprise Architecture	Summary	Manual	Enterprise Architecture Workstream				Enterprise Architect		Approved Enterprise Architecture Design Package	Summary Task
 201	201	3.1			Planning	Summary	Manual	Planning				Enterprise Architect		Planning Complete	Summary Task
 202	202	3.1.1	EA-T001		Planning	Task	Auto	Review Design Input Baseline	0.5	2.5.4FS	Enterprise Architect	Enterprise Architect	4	Validated Design Inputs	Confirm baseline assumptions
