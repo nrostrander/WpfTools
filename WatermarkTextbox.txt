@@ -1,0 +1,304 @@
+200	200	3			Enterprise Architecture	Summary	Manual	Enterprise Architecture Workstream				Enterprise Architect		Approved Enterprise Architecture Design Package	Summary Task
+201	201	3.1			Planning	Summary	Manual	Planning				Enterprise Architect		Planning Complete	Summary Task
+202	202	3.1.1	EA-T001		Planning	Task	Auto	Review Design Input Baseline	0.5	2.5.4FS	Enterprise Architect	Enterprise Architect	4	Validated Design Inputs	Confirm baseline assumptions
+203	203	3.1.2	EA-T002		Planning	Task	Auto	Confirm Architecture Objectives and Success Criteria	0.5	202FS	Enterprise Architect	Enterprise Architect	4	Architecture Objectives	Confirm design goals
+204	204	3.1.3	EA-T003		Planning	Task	Auto	Prepare Architecture Decision Workshop Materials	0.5	203FS	Enterprise Architect	Enterprise Architect	4	Workshop Package	Prepare working session
+205	205	3.1.4			Planning	Milestone	Manual	Architecture Decision Development Ready	0	204FS	Tiger Team Lead	Tiger Team Lead	0	Workshop Authorized	Planning Complete
+206	206	3.2			Architecture Decision Development	Summary	Manual	Architecture Decision Development				Enterprise Architect		Enterprise Architecture Decisions	Summary Task
+207	207	3.2.1	EA-001	EA-001	Architecture Decision Development	Task	Auto	Define Enterprise Integration Strategy	0.5	205FS	Enterprise Architect	Enterprise Architect	4	Enterprise Integration Strategy	Hub-and-spoke, hybrid, direct integration recommendations
+208	208	3.2.2	EA-002	EA-002	Architecture Decision Development	Task	Auto	Define ASOT Integration Strategy	1	207FS	Integration Architect	Integration Architect	8	ASOT Integration Standard	API, event, batch, hybrid integration standards
+209	209	3.2.3	EA-003	EA-003	Architecture Decision Development	Task	Auto	Define Business Object Publishing Strategy	0.5	208FS	Enterprise Architect	Enterprise Architect	4	Publishing Standard	Business object publication model
+210	210	3.2.4	EA-004	EA-004	Architecture Decision Development	Task	Auto	Define Digital Thread Routing Strategy	0.5	209FS	Integration Architect	Integration Architect	4	Routing Strategy	Subscriber routing and distribution model
+211	211	3.2.5	EA-005	EA-005	Architecture Decision Development	Task	Auto	Define Medallion Architecture Strategy	1	210FS	Enterprise Architect	Enterprise Architect	8	Target Medallion Architecture	Bronze, Silver, Gold responsibilities
+212	212	3.2.6	EA-006	EA-006	Architecture Decision Development	Task	Auto	Define Enterprise Technology Strategy	0.5	211FS	Enterprise Architect	Enterprise Architect	4	Technology Recommendation	Platform and technology recommendations
+213	213	3.2.7			Architecture Decision Development	Milestone	Manual	Enterprise Architecture Decisions Complete	0	212FS	Enterprise Architect	Enterprise Architect	0	Approved Decision Set	Architecture decisions finalized
+214	214	3.3			Recommendation Package	Summary	Manual	Recommendation Package				Enterprise Architect		Recommendation Package	Summary Task
+215	215	3.3.1	EA-T004		Recommendation Package	Task	Auto	Update Enterprise Architecture Diagrams	0.5	213FS	Enterprise Architect	Enterprise Architect	4	Updated Architecture Diagrams	Update target-state architecture
+216	216	3.3.2	EA-T005		Recommendation Package	Task	Auto	Develop Architecture Decision Records (ADRs)	0.5	215FS	Enterprise Architect	Enterprise Architect	4	ADR Package	Document architectural decisions
+217	217	3.3.3	EA-T006		Recommendation Package	Task	Auto	Develop Enterprise Architecture Recommendation Document	1	216FS	Enterprise Architect	Enterprise Architect	8	Recommendation Document	Prepare sponsor-ready recommendation
+218	218	3.3.4	EA-T007		Recommendation Package	Task	Auto	Develop Implementation Principles and Design Constraints	0.5	217FS	Enterprise Architect	Enterprise Architect	4	Implementation Principles	Capture architectural constraints
+219	219	3.3.5	EA-T008		Recommendation Package	Task	Auto	Develop Future-State Architecture Roadmap	0.5	218FS	Enterprise Architect	Enterprise Architect	4	Future-State Roadmap	Long-term roadmap
+220	220	3.3.6			Recommendation Package	Milestone	Manual	Recommendation Package Complete	0	219FS	Enterprise Architect	Enterprise Architect	0	JP Review Package	Ready for sponsor review
+221	221	3.4			Internal Quality Review	Summary	Manual	Internal Quality Review				Tiger Team Lead		QA Complete	Summary Task
+222	222	3.4.1	EA-T009		Internal Quality Review	Task	Auto	Conduct Tiger Team Technical Review	0.5	220FS	Tiger Team	Tiger Team Lead	4	Review Comments	Internal peer review
+223	223	3.4.2	EA-T010		Internal Quality Review	Task	Auto	Incorporate Tiger Team Review Comments	0.5	222FS	Enterprise Architect	Enterprise Architect	4	Updated Recommendation	Resolve review comments
+224	224	3.4.3			Internal Quality Review	Milestone	Manual	Internal QA Complete	0	223FS	Tiger Team Lead	Tiger Team Lead	0	QA Approved	Internal review complete
+225	225	3.5			JP Governance	Summary	Manual	JP Governance				JP		JP Endorsement	Summary Task
+226	226	3.5.1	EA-T011		JP Governance	Task	Auto	Prepare JP Presentation Package	0.5	224FS	Enterprise Architect	Enterprise Architect	4	JP Briefing Package	Prepare sponsor presentation
+227	227	3.5.2			JP Governance	Milestone	Manual	JP Working Session	0	226FS	JP	JP	0	Review Complete	Sponsor review
+228	228	3.5.3	EA-T012		JP Governance	Task	Auto	Address JP Comments	0.5	227FS	Enterprise Architect	Enterprise Architect	4	Updated Recommendation	Incorporate sponsor feedback
+229	229	3.5.4			JP Governance	Milestone	Manual	JP Endorsement	0	228FS	JP	JP	0	Approved Architecture Package	Authorized for ARB
+230	230	3.6			ARB Governance	Summary	Manual	ARB Governance				Enterprise Architect		ARB Approval	Summary Task
+231	231	3.6.1	EA-T013		ARB Governance	Task	Auto	Prepare ARB Submission Package	0.5	229FS	Enterprise Architect	Enterprise Architect	4	ARB Submission	Prepare governance package
+232	232	3.6.2			ARB Governance	Milestone	Manual	Architecture Review Board Review	0	231FS	ARB	ARB	0	Review Complete	ARB presentation
+233	233	3.6.3	EA-T014		ARB Governance	Task	Auto	Address ARB Action Items	1	232FS	Enterprise Architect	Enterprise Architect	8	Final Architecture Recommendation	Resolve ARB comments
+234	234	3.6.4			ARB Governance	Milestone	Manual	ARB Approval	0	233FS	ARB	ARB	0	Approved Enterprise Architecture	Architecture baseline approved
+235	235	3.7			Baseline Update	Summary	Manual	Baseline Update				Project Coordinator		Baseline Updated	Summary Task
+236	236	3.7.1	EA-T015		Baseline Update	Task	Auto	Publish Approved Enterprise Architecture Package	0.5	234FS	Project Coordinator	Project Coordinator	4	Published Architecture	Publish approved artifacts
+237	237	3.7.2	EA-T016		Baseline Update	Task	Auto	Update SharePoint Repository	0.5	236FS	Project Coordinator	Project Coordinator	4	Updated Repository	Archive approved artifacts
+238	238	3.7.3	EA-T017		Baseline Update	Task	Auto	Notify Stakeholders of Approved Architecture Baseline	0.5	237FS	Tiger Team Lead	Tiger Team Lead	4	Stakeholder Notification	Notify stakeholders
+239	239	3.7.4			Baseline Update	Milestone	Manual	Enterprise Architecture Workstream Complete	0	238FS	Tiger Team Lead	Tiger Team Lead	0	Architecture Baselined	Workstream complete
+300	300	4			Enterprise Data Framework	Summary	Manual	Enterprise Data Framework Workstream				Data Architect		Approved Enterprise Data Framework	Summary Task
+301	301	4.1			Planning	Summary	Manual	Planning				Data Architect		Planning Complete	Summary Task
+302	302	4.1.1	DF-T001		Planning	Task	Auto	Review Design Input Baseline	0.5	2.5.4FS	Data Architect	Data Architect	4	Validated Inputs	Confirm approved baseline
+303	303	4.1.2	DF-T002		Planning	Task	Auto	Confirm Data Framework Objectives	0.5	302FS	Data Architect	Data Architect	4	Objectives	Confirm scope
+304	304	4.1.3	DF-T003		Planning	Task	Auto	Prepare Data Modeling Workshop Materials	0.5	303FS	Data Architect	Data Architect	4	Workshop Package	Prepare facilitated workshops
+305	305	4.1.4			Planning	Milestone	Manual	Data Framework Workshop Ready	0	304FS	Tiger Team Lead	Tiger Team Lead	0	Workshop Authorized	Planning complete
+306	306	4.2			Data Framework Decision Development	Summary	Manual	Data Framework Decision Development				Data Architect		Enterprise Data Decisions	Summary Task
+307	307	4.2.1	DF-001	DF-001	Decision Development	Task	Auto	Define Business Domain Strategy	0.5	305FS	Data Architect	Data Architect	4	Business Domain Framework	Confirm enterprise domains
+308	308	4.2.2	DF-002	DF-002	Decision Development	Task	Auto	Review Existing Enterprise Data Model	0.5	307FS	Data Architect	Data Architect	4	Updated Data Model	Review baseline model
+309	309	4.2.3	DF-003	DF-003	Decision Development	Task	Auto	Define Canonical Business Objects	1	308FS	Data Architect	Data Architect	8	Canonical Object Catalog	Enterprise business objects
+310	310	4.2.4	DF-004	DF-004	Decision Development	Task	Auto	Prioritize Initial Business Objects	1	309FS	Data Architect	Data Architect	8	Prioritized Object List	Phase I objects
+311	311	4.2.5	DF-005	DF-005	Decision Development	Task	Auto	Review Existing Attribute Catalog	0.5	310FS	Data Architect	Data Architect	4	Updated Attribute Inventory	Review available attributes
+312	312	4.2.6	DF-006	DF-006	Decision Development	Task	Auto	Prioritize Initial Attribute Sets	1	311FS	Data Architect	Data Architect	8	Prioritized Attribute Catalog	Phase I attributes
+313	313	4.2.7	DF-007	DF-007	Decision Development	Task	Auto	Map Attributes to Authoritative Source Systems (ASOTs)	1	312FS	Data Architect, Integration Architect	Data Architect	8	ASOT Mapping Matrix	Identify authoritative data sources
+314	314	4.2.8	DF-008	DF-008	Decision Development	Task	Auto	Define Enterprise Business Keys and Identifiers	0.5	313FS	Data Architect	Data Architect	4	Enterprise Key Standard	Common identifiers
+315	315	4.2.9	DF-009	DF-009	Decision Development	Task	Auto	Define Master & Reference Data Strategy	0.5	314FS	Data Architect	Data Architect	4	Reference Data Standard	Shared reference data
+316	316	4.2.10	DF-010	DF-010	Decision Development	Task	Auto	Define Enterprise Data Quality Standards	0.5	315FS	Data Governance Lead	Data Governance Lead	4	Data Quality Standard	Quality rules and thresholds
+317	317	4.2.11	DF-011	DF-011	Decision Development	Task	Auto	Define Metadata and Business Glossary Standards	0.5	316FS	Data Governance Lead	Data Governance Lead	4	Metadata Standard	Enterprise glossary
+318	318	4.2.12	DF-012	DF-012	Decision Development	Task	Auto	Define Data Ownership & Stewardship Model	0.5	317FS	Data Governance Lead	Data Governance Lead	4	Stewardship Model	Data ownership
+319	319	4.2.13			Decision Development	Milestone	Manual	Enterprise Data Framework Decisions Complete	0	318FS	Data Architect	Data Architect	0	Approved Decision Set	Data decisions complete
+320	320	4.3			Recommendation Package	Summary	Manual	Recommendation Package				Data Architect		Recommendation Package	Summary Task
+321	321	4.3.1	DF-T004		Recommendation Package	Task	Auto	Develop Enterprise Data Framework Recommendation	1	319FS	Data Architect	Data Architect	8	Recommendation Document	Complete framework recommendation
+322	322	4.3.2	DF-T005		Recommendation Package	Task	Auto	Develop Data Dictionary	0.5	321FS	Data Architect	Data Architect	4	Enterprise Data Dictionary	Initial data dictionary
+323	323	4.3.3	DF-T006		Recommendation Package	Task	Auto	Develop Attribute Crosswalk Matrix	0.5	322FS	Data Architect	Data Architect	4	Crosswalk Matrix	Attribute-to-ASOT mapping
+324	324	4.3.4	DF-T007		Recommendation Package	Task	Auto	Develop ADRs	0.5	323FS	Data Architect	Data Architect	4	ADR Package	Architecture decision records
+325	325	4.3.5			Recommendation Package	Milestone	Manual	Recommendation Package Complete	0	324FS	Data Architect	Data Architect	0	JP Review Package	Ready for governance
+326	326	4.4			Internal Quality Review	Summary	Manual	Internal Quality Review				Tiger Team Lead		QA Complete	Summary Task
+327	327	4.4.1	DF-T008		Internal Quality Review	Task	Auto	Conduct Tiger Team Technical Review	0.5	325FS	Tiger Team	Tiger Team Lead	4	Review Comments	Internal review
+328	328	4.4.2	DF-T009		Internal Quality Review	Task	Auto	Incorporate Tiger Team Review Comments	0.5	327FS	Data Architect	Data Architect	4	Updated Recommendation	Resolve comments
+329	329	4.4.3			Internal Quality Review	Milestone	Manual	Internal QA Complete	0	328FS	Tiger Team Lead	Tiger Team Lead	0	QA Approved	Ready for JP
+330	330	4.5			JP Governance	Summary	Manual	JP Governance				JP		JP Endorsement	Summary Task
+331	331	4.5.1	DF-T010		JP Governance	Task	Auto	Prepare JP Presentation Package	0.5	329FS	Data Architect	Data Architect	4	JP Briefing Package	Sponsor briefing
+332	332	4.5.2			JP Governance	Milestone	Manual	JP Working Session	0	331FS	JP	JP	0	Review Complete	Sponsor review
+333	333	4.5.3	DF-T011		JP Governance	Task	Auto	Address JP Comments	0.5	332FS	Data Architect	Data Architect	4	Updated Recommendation	Sponsor updates
+334	334	4.5.4			JP Governance	Milestone	Manual	JP Endorsement	0	333FS	JP	JP	0	Approved Data Framework	Authorized for ARB
+335	335	4.6			ARB Governance	Summary	Manual	ARB Governance				Enterprise Architect		ARB Approval	Summary Task
+336	336	4.6.1	DF-T012		ARB Governance	Task	Auto	Prepare ARB Submission Package	0.5	334FS	Data Architect	Data Architect	4	ARB Submission	Prepare governance package
+337	337	4.6.2			ARB Governance	Milestone	Manual	Architecture Review Board Review	0	336FS	ARB	ARB	0	Review Complete	ARB presentation
+338	338	4.6.3	DF-T013		ARB Governance	Task	Auto	Address ARB Action Items	1	337FS	Data Architect	Data Architect	8	Final Recommendation	Resolve ARB actions
+339	339	4.6.4			ARB Governance	Milestone	Manual	ARB Approval	0	338FS	ARB	ARB	0	Approved Enterprise Data Framework	Governance approval
+340	340	4.7			Baseline Update	Summary	Manual	Baseline Update				Project Coordinator		Baseline Updated	Summary Task
+341	341	4.7.1	DF-T014		Baseline Update	Task	Auto	Publish Approved Enterprise Data Framework	0.5	339FS	Project Coordinator	Project Coordinator	4	Published Framework	Publish approved artifacts
+342	342	4.7.2	DF-T015		Baseline Update	Task	Auto	Update SharePoint Repository	0.5	341FS	Project Coordinator	Project Coordinator	4	Updated Repository	Archive artifacts
+343	343	4.7.3	DF-T016		Baseline Update	Task	Auto	Notify Stakeholders of Approved Data Framework	0.5	342FS	Tiger Team Lead	Tiger Team Lead	4	Stakeholder Notification	Notify stakeholders
+344	344	4.7.4			Baseline Update	Milestone	Manual	Enterprise Data Framework Workstream Complete	0	343FS	Tiger Team Lead	Tiger Team Lead	0	Data Framework Baselined	Workstream complete
+400	400	5				Summary	Manual	Enterprise Data Movement Framework				Integration Architect		Approved Data Movement Framework	Summary Task
+401	401	5.1				Summary	Manual	Planning				Integration Architect		Planning Complete	Summary
+402	402	5.1.1	DM-T001		Planning	Task	Auto	Review Design Input Baseline	0.5	2.5.4FS	Integration Architect	Integration Architect	4	Validated Inputs	Review approved baseline
+403	403	5.1.2	DM-T002		Planning	Task	Auto	Review Approved Enterprise Architecture Recommendations	0.5	402FS	Enterprise Architect	Enterprise Architect	4	Architecture Inputs	Confirm architecture decisions
+404	404	5.1.3	DM-T003		Planning	Task	Auto	Review Approved Enterprise Data Framework	0.5	403FS	Data Architect	Data Architect	4	Data Inputs	Confirm approved data standards
+405	405	5.1.4	DM-T004		Planning	Task	Auto	Prepare Integration Design Workshop Materials	0.5	404FS	Integration Architect	Integration Architect	4	Workshop Package	Workshop preparation
+406	406	5.1.5				Milestone	Manual	Integration Design Workshop Ready	0	405FS	Tiger Team Lead	Tiger Team Lead	0	Workshop Authorized	Planning complete
+407	407	5.2				Summary	Manual	Architecture Decision Development				Integration Architect		Enterprise Data Movement Decisions	Summary
+408	408	5.2.1	DM-001	DM-001	Decision Development	Task	Auto	Define Enterprise API Integration Strategy	0.5	406FS	Integration Architect	Integration Architect	4	Enterprise API Standard	REST/WRS/API architecture
+409	409	5.2.2	DM-002	DM-002	Decision Development	Task	Auto	Define Event-Driven Publishing Strategy	1	408FS	Integration Architect	Integration Architect	8	Event Publishing Standard	Publish/subscribe architecture
+410	410	5.2.3	DM-003	DM-003	Decision Development	Task	Auto	Define Business Object Packaging Standard	0.5	409FS	Enterprise Architect	Enterprise Architect	4	Business Object Standard	Canonical event payloads
+411	411	5.2.4	DM-004	DM-004	Decision Development	Task	Auto	Define Digital Thread Routing & Subscription Strategy	1	410FS	Integration Architect	Integration Architect	8	Routing Standard	Subscriber routing model
+412	412	5.2.5	DM-005	DM-005	Decision Development	Task	Auto	Define Medallion Ingestion Strategy	1	411FS	Data Engineer	Data Engineer	8	Ingestion Standard	Bronze ingestion architecture
+413	413	5.2.6	DM-006	DM-006	Decision Development	Task	Auto	Define API Pull Pattern	0.5	412FS	Integration Architect	Integration Architect	4	API Pattern Standard	On-demand retrieval standard
+414	414	5.2.7	DM-007	DM-007	Decision Development	Task	Auto	Define Event Publishing Pattern	0.5	413FS	Integration Architect	Integration Architect	4	Event Pattern Standard	Workflow-triggered publishing
+415	415	5.2.8	DM-008	DM-008	Decision Development	Task	Auto	Define Batch Ingestion Pattern	0.5	414FS	Integration Architect	Integration Architect	4	Batch Pattern Standard	Scheduled data loads
+416	416	5.2.9	DM-009	DM-009	Decision Development	Task	Auto	Define File Transfer Pattern	0.5	415FS	Integration Architect	Integration Architect	4	File Transfer Standard	Bulk file exchange
+417	417	5.2.10	DM-010	DM-010	Decision Development	Task	Auto	Define Incremental Synchronization Strategy	0.5	416FS	Integration Architect	Integration Architect	4	Synchronization Standard	Delta synchronization
+418	418	5.2.11	DM-011	DM-011	Decision Development	Task	Auto	Define Monitoring & Operational Support Strategy	0.5	417FS	Integration Architect	Integration Architect	4	Operations Standard	Monitoring, alerts, dashboards
+419	419	5.2.12	DM-012	DM-012	Decision Development	Task	Auto	Define Error Handling, Retry & Dead-Letter Strategy	0.5	418FS	Integration Architect	Integration Architect	4	Reliability Standard	Enterprise resiliency
+420	420	5.2.13	DM-013	DM-013	Decision Development	Task	Auto	Develop Enterprise Data Movement Decision Matrix	0.5	419FS	Integration Architect	Integration Architect	4	Decision Matrix	Pattern selection guidance
+421	421	5.2.14				Milestone	Manual	Enterprise Data Movement Decisions Complete	0	420FS	Integration Architect	Integration Architect	0	Approved Decision Set	Decision development complete
+422	422	5.3				Summary	Manual	Recommendation Package				Integration Architect		Recommendation Package	Summary
+423	423	5.3.1	DM-T005		Recommendation	Task	Auto	Develop Enterprise Data Movement Framework Document	1	421FS	Integration Architect	Integration Architect	8	Framework Document	Complete recommendation
+424	424	5.3.2	DM-T006		Recommendation	Task	Auto	Develop Integration Architecture Diagrams	0.5	423FS	Integration Architect	Integration Architect	4	Architecture Diagrams	Future-state diagrams
+425	425	5.3.3	DM-T007		Recommendation	Task	Auto	Develop Enterprise Integration Standards	0.5	424FS	Integration Architect	Integration Architect	4	Integration Standards	Engineering standards
+426	426	5.3.4	DM-T008		Recommendation	Task	Auto	Develop Architecture Decision Records (ADRs)	0.5	425FS	Enterprise Architect	Enterprise Architect	4	ADR Package	Architecture decision records
+427	427	5.3.5				Milestone	Manual	Recommendation Package Complete	0	426FS	Integration Architect	Integration Architect	0	JP Review Package	Ready for sponsor review
+428	428	5.4				Summary	Manual	Internal Quality Review				Tiger Team Lead		QA Complete	Summary
+429	429	5.4.1	DM-T009		Internal QA	Task	Auto	Conduct Tiger Team Technical Review	0.5	427FS	Tiger Team	Tiger Team Lead	4	Review Comments	Internal peer review
+430	430	5.4.2	DM-T010		Internal QA	Task	Auto	Incorporate Tiger Team Review Comments	0.5	429FS	Integration Architect	Integration Architect	4	Updated Recommendation	Resolve review comments
+431	431	5.4.3				Milestone	Manual	Internal QA Complete	0	430FS	Tiger Team Lead	Tiger Team Lead	0	QA Approved	Ready for governance
+432	432	5.5				Summary	Manual	JP Governance				JP		JP Endorsement	Summary
+433	433	5.5.1	DM-T011		JP Governance	Task	Auto	Prepare JP Presentation Package	0.5	431FS	Integration Architect	Integration Architect	4	JP Briefing Package	Sponsor briefing
+434	434	5.5.2				Milestone	Manual	JP Working Session	0	433FS	JP	JP	0	Review Complete	Sponsor review
+435	435	5.5.3	DM-T012		JP Governance	Task	Auto	Address JP Comments	0.5	434FS	Integration Architect	Integration Architect	4	Updated Recommendation	Sponsor updates
+436	436	5.5.4				Milestone	Manual	JP Endorsement	0	435FS	JP	JP	0	Approved Data Movement Package	Authorized for ARB
+437	437	5.6				Summary	Manual	ARB Governance				Enterprise Architect		ARB Approval	Summary
+438	438	5.6.1	DM-T013		ARB Governance	Task	Auto	Prepare ARB Submission Package	0.5	436FS	Integration Architect	Integration Architect	4	ARB Submission	Prepare governance package
+439	439	5.6.2				Milestone	Manual	Architecture Review Board Review	0	438FS	ARB	ARB	0	Review Complete	ARB presentation
+440	440	5.6.3	DM-T014		ARB Governance	Task	Auto	Address ARB Action Items	1	439FS	Integration Architect	Integration Architect	8	Final Recommendation	Resolve governance comments
+441	441	5.6.4				Milestone	Manual	ARB Approval	0	440FS	ARB	ARB	0	Approved Enterprise Data Movement Framework	Governance approval
+442	442	5.7				Summary	Manual	Baseline Update				Project Coordinator		Baseline Updated	Summary
+443	443	5.7.1	DM-T015		Baseline Update	Task	Auto	Publish Approved Enterprise Data Movement Framework	0.5	441FS	Project Coordinator	Project Coordinator	4	Published Framework	Publish approved framework
+444	444	5.7.2	DM-T016		Baseline Update	Task	Auto	Update SharePoint Repository	0.5	443FS	Project Coordinator	Project Coordinator	4	Updated Repository	Archive approved artifacts
+445	445	5.7.3	DM-T017		Baseline Update	Task	Auto	Notify Stakeholders of Approved Data Movement Framework	0.5	444FS	Tiger Team Lead	Tiger Team Lead	4	Stakeholder Notification	Notify stakeholders
+446	446	5.7.4				Milestone	Manual	Enterprise Data Movement Framework Workstream Complete	0	445FS	Tiger Team Lead	Tiger Team Lead	0	Framework Baselined	Workstream complete
+500	500	6				Summary	Manual	Enterprise Data Transformation & Curation Framework				Data Architect		Approved Transformation & Curation Framework	Summary Task
+501	501	6.1				Summary	Manual	Planning				Data Architect		Planning Complete	Summary
+502	502	6.1.1	TC-T001		Planning	Task	Auto	Review Design Input Baseline	0.5	2.5.4FS	Data Architect	Data Architect	4	Validated Inputs	Review approved baseline
+503	503	6.1.2	TC-T002		Planning	Task	Auto	Review Approved Enterprise Architecture Recommendations	0.5	502FS	Enterprise Architect	Enterprise Architect	4	Architecture Inputs	Confirm architecture decisions
+504	504	6.1.3	TC-T003		Planning	Task	Auto	Review Approved Enterprise Data Framework	0.5	503FS	Data Architect	Data Architect	4	Data Inputs	Confirm approved data standards
+505	505	6.1.4	TC-T004		Planning	Task	Auto	Review Approved Enterprise Data Movement Framework	0.5	504FS	Integration Architect	Integration Architect	4	Movement Inputs	Confirm ingestion standards
+506	506	6.1.5	TC-T005		Planning	Task	Auto	Prepare Transformation & Curation Workshop Materials	0.5	505FS	Data Architect	Data Architect	4	Workshop Package	Prepare facilitated workshops
+507	507	6.1.6				Milestone	Manual	Transformation & Curation Workshop Ready	0	506FS	Tiger Team Lead	Tiger Team Lead	0	Workshop Authorized	Planning complete
+508	508	6.2				Summary	Manual	Architecture Decision Development				Data Architect		Transformation Decisions	Summary
+509	509	6.2.1	TC-001	TC-001	Decision Development	Task	Auto	Define Bronze Layer Standards	0.5	507FS	Data Architect	Data Architect	4	Bronze Layer Standard	Raw data landing and retention standards
+510	510	6.2.2	TC-002	TC-002	Decision Development	Task	Auto	Define Bronze-to-Silver Transformation Strategy	1	509FS	Data Engineer	Data Engineer	8	Transformation Standard	Transformation rules
+511	511	6.2.3	TC-003	TC-003	Decision Development	Task	Auto	Define Silver Layer Conformance Standards	1	510FS	Data Architect	Data Architect	8	Silver Layer Standard	Normalized enterprise data model
+512	512	6.2.4	TC-004	TC-004	Decision Development	Task	Auto	Define Silver-to-Gold Curation Strategy	1	511FS	Data Architect	Data Architect	8	Gold Curation Standard	Business-ready curated data
+513	513	6.2.5	TC-005	TC-005	Decision Development	Task	Auto	Define Gold Data Product Standards	0.5	512FS	Data Architect	Data Architect	4	Data Product Standard	Reporting and analytics standards
+514	514	6.2.6	TC-006	TC-006	Decision Development	Task	Auto	Define Cross-Layer Business Rule Framework	0.5	513FS	Data Architect	Data Architect	4	Business Rule Framework	Transformation rules
+515	515	6.2.7	TC-007	TC-007	Decision Development	Task	Auto	Define Enterprise Data Quality Gate Strategy	0.5	514FS	Data Governance Lead	Data Governance Lead	4	Quality Gate Standard	Validation between layers
+516	516	6.2.8	TC-008	TC-008	Decision Development	Task	Auto	Define Metadata & Lineage Propagation Strategy	0.5	515FS	Data Governance Lead	Data Governance Lead	4	Metadata Standard	Lineage propagation
+517	517	6.2.9	TC-009	TC-009	Decision Development	Task	Auto	Define Schema Evolution & Versioning Strategy	0.5	516FS	Data Architect	Data Architect	4	Schema Standard	Schema management
+518	518	6.2.10	TC-010	TC-010	Decision Development	Task	Auto	Define Retention, Archival & Reprocessing Strategy	0.5	517FS	Data Architect	Data Architect	4	Lifecycle Standard	Lifecycle management
+519	519	6.2.11	TC-011	TC-011	Decision Development	Task	Auto	Define Data Reconciliation & Survivorship Rules	0.5	518FS	Data Architect	Data Architect	4	Reconciliation Standard	Deduplication and survivorship
+520	520	6.2.12	TC-012	TC-012	Decision Development	Task	Auto	Develop Enterprise Transformation Decision Matrix	0.5	519FS	Data Architect	Data Architect	4	Decision Matrix	Guidance for implementation
+521	521	6.2.13				Milestone	Manual	Transformation & Curation Decisions Complete	0	520FS	Data Architect	Data Architect	0	Approved Decision Set	Decision development complete
+522	522	6.3				Summary	Manual	Recommendation Package				Data Architect		Recommendation Package	Summary
+523	523	6.3.1	TC-T006		Recommendation	Task	Auto	Develop Enterprise Transformation & Curation Framework Document	1	521FS	Data Architect	Data Architect	8	Framework Document	Complete recommendation
+524	524	6.3.2	TC-T007		Recommendation	Task	Auto	Develop Transformation Flow Diagrams	0.5	523FS	Data Engineer	Data Engineer	4	Flow Diagrams	Transformation process diagrams
+525	525	6.3.3	TC-T008		Recommendation	Task	Auto	Develop Enterprise Engineering Standards	0.5	524FS	Data Architect	Data Architect	4	Engineering Standards	Transformation standards
+526	526	6.3.4	TC-T009		Recommendation	Task	Auto	Develop Architecture Decision Records (ADRs)	0.5	525FS	Enterprise Architect	Enterprise Architect	4	ADR Package	Architecture decision records
+527	527	6.3.5				Milestone	Manual	Recommendation Package Complete	0	526FS	Data Architect	Data Architect	0	JP Review Package	Ready for governance
+528	528	6.4				Summary	Manual	Internal Quality Review				Tiger Team Lead		QA Complete	Summary
+529	529	6.4.1	TC-T010		Internal QA	Task	Auto	Conduct Tiger Team Technical Review	0.5	527FS	Tiger Team	Tiger Team Lead	4	Review Comments	Internal review
+530	530	6.4.2	TC-T011		Internal QA	Task	Auto	Incorporate Tiger Team Review Comments	0.5	529FS	Data Architect	Data Architect	4	Updated Recommendation	Resolve review comments
+531	531	6.4.3				Milestone	Manual	Internal QA Complete	0	530FS	Tiger Team Lead	Tiger Team Lead	0	QA Approved	Ready for governance
+532	532	6.5				Summary	Manual	JP Governance				JP		JP Endorsement	Summary
+533	533	6.5.1	TC-T012		JP Governance	Task	Auto	Prepare JP Presentation Package	0.5	531FS	Data Architect	Data Architect	4	JP Briefing Package	Sponsor briefing
+534	534	6.5.2				Milestone	Manual	JP Working Session	0	533FS	JP	JP	0	Review Complete	Sponsor review
+535	535	6.5.3	TC-T013		JP Governance	Task	Auto	Address JP Comments	0.5	534FS	Data Architect	Data Architect	4	Updated Recommendation	Sponsor updates
+536	536	6.5.4				Milestone	Manual	JP Endorsement	0	535FS	JP	JP	0	Approved Transformation Package	Authorized for ARB
+537	537	6.6				Summary	Manual	ARB Governance				Enterprise Architect		ARB Approval	Summary
+538	538	6.6.1	TC-T014		ARB Governance	Task	Auto	Prepare ARB Submission Package	0.5	536FS	Data Architect	Data Architect	4	ARB Submission	Prepare governance package
+539	539	6.6.2				Milestone	Manual	Architecture Review Board Review	0	538FS	ARB	ARB	0	Review Complete	ARB presentation
+540	540	6.6.3	TC-T015		ARB Governance	Task	Auto	Address ARB Action Items	1	539FS	Data Architect	Data Architect	8	Final Recommendation	Resolve governance comments
+541	541	6.6.4				Milestone	Manual	ARB Approval	0	540FS	ARB	ARB	0	Approved Enterprise Transformation & Curation Framework	Governance approval
+542	542	6.7				Summary	Manual	Baseline Update				Project Coordinator		Baseline Updated	Summary
+543	543	6.7.1	TC-T016		Baseline Update	Task	Auto	Publish Approved Enterprise Transformation & Curation Framework	0.5	541FS	Project Coordinator	Project Coordinator	4	Published Framework	Publish approved framework
+544	544	6.7.2	TC-T017		Baseline Update	Task	Auto	Update SharePoint Repository	0.5	543FS	Project Coordinator	Project Coordinator	4	Updated Repository	Archive approved artifacts
+545	545	6.7.3	TC-T018		Baseline Update	Task	Auto	Notify Stakeholders of Approved Transformation & Curation Framework	0.5	544FS	Tiger Team Lead	Tiger Team Lead	4	Stakeholder Notification	Notify stakeholders
+546	546	6.7.4				Milestone	Manual	Enterprise Transformation & Curation Framework Workstream Complete	0	545FS	Tiger Team Lead	Tiger Team Lead	0	Framework Baselined	Workstream complete
+600	600	7				Summary	Manual	Security Architecture Integration				Enterprise Architect		Approved Security Integration Framework	Summary Task
+601	601	7.1				Summary	Manual	Planning				Enterprise Architect		Planning Complete	Summary
+602	602	7.1.1	SEC-T001		Planning	Task	Auto	Review Approved Enterprise Architecture Recommendations	0.5	3.7.4FS	Enterprise Architect	Enterprise Architect	4	Validated Architecture Inputs	Confirm architecture baseline
+603	603	7.1.2	SEC-T002		Planning	Task	Auto	Identify Required Security Deliverables	0.5	602FS	Enterprise Architect	Enterprise Architect	4	Security Deliverable List	Identify required security artifacts
+604	604	7.1.3	SEC-T003		Planning	Task	Auto	Identify Security Stakeholders and SMEs	0.5	603FS	Tiger Team Lead	Tiger Team Lead	4	Stakeholder Register	Identify cybersecurity participants
+605	605	7.1.4	SEC-T004		Planning	Task	Auto	Develop Security Architecture Request Package	0.5	604FS	Enterprise Architect	Enterprise Architect	4	Security Request Package	Prepare request for security organization
+606	606	7.1.5				Milestone	Manual	Security Architecture Request Complete	0	605FS	Tiger Team Lead	Tiger Team Lead	0	Security Work Authorized	Planning complete
+607	607	7.2				Summary	Manual	Security Requirements Definition				Enterprise Architect		Security Requirements	Summary
+608	608	7.2.1	SEC-001	SEC-001	Decision Development	Task	Auto	Define Authentication Requirements	0.5	606FS	Enterprise Architect	Enterprise Architect	4	Authentication Requirements	Identity management requirements
+609	609	7.2.2	SEC-002	SEC-002	Decision Development	Task	Auto	Define Authorization & Access Control Requirements	0.5	608FS	Enterprise Architect	Enterprise Architect	4	Authorization Requirements	RBAC/ABAC standards
+610	610	7.2.3	SEC-003	SEC-003	Decision Development	Task	Auto	Define Encryption & Key Management Requirements	0.5	609FS	Enterprise Architect	Enterprise Architect	4	Encryption Standard	Encryption requirements
+611	611	7.2.4	SEC-004	SEC-004	Decision Development	Task	Auto	Define Audit Logging & Monitoring Requirements	0.5	610FS	Enterprise Architect	Enterprise Architect	4	Audit Standard	Logging requirements
+612	612	7.2.5	SEC-005	SEC-005	Decision Development	Task	Auto	Define Data Classification & Handling Requirements	0.5	611FS	Data Governance Lead	Data Governance Lead	4	Classification Standard	Data handling requirements
+613	613	7.2.6	SEC-006	SEC-006	Decision Development	Task	Auto	Define Network Security & Trust Boundary Requirements	0.5	612FS	Enterprise Architect	Enterprise Architect	4	Network Security Standard	Network architecture requirements
+614	614	7.2.7				Milestone	Manual	Security Requirements Complete	0	613FS	Enterprise Architect	Enterprise Architect	0	Approved Requirements Package	Requirements complete
+615	615	7.3				Summary	Manual	External Security Architecture Coordination				Security Team		Security Recommendations	Summary
+616	616	7.3.1	SEC-T005		External Coordination	Task	Auto	Submit Security Architecture Request	0.5	614FS	Enterprise Architect	Enterprise Architect	4	Submitted Request	Formal handoff to security organization
+617	617	7.3.2	SEC-T006		External Coordination	Task	Auto	Security Organization Develops Architecture Recommendations	5	616FS	Security Team	Security Team	40	Security Recommendation Package	External security design effort
+618	618	7.3.3	SEC-T007		External Coordination	Task	Auto	Conduct Joint Security Architecture Review	1	617FS	Enterprise Architect, Security Team	Enterprise Architect	8	Joint Review Comments	Review recommendations
+619	619	7.3.4	SEC-T008		External Coordination	Task	Auto	Resolve Security Architecture Integration Issues	1	618FS	Enterprise Architect	Enterprise Architect	8	Resolved Recommendations	Resolve architecture impacts
+620	620	7.3.5				Milestone	Manual	Security Architecture Recommendation Complete	0	619FS	Security Team	Security Team	0	Approved Security Recommendation	Security recommendations complete
+621	621	7.4				Summary	Manual	Framework Integration				Enterprise Architect		Integrated Security Framework	Summary
+622	622	7.4.1	SEC-T009		Framework Integration	Task	Auto	Update Enterprise Architecture Diagrams	0.5	620FS	Enterprise Architect	Enterprise Architect	4	Updated Architecture	Incorporate security controls
+623	623	7.4.2	SEC-T010		Framework Integration	Task	Auto	Update Enterprise Data Movement Standards	0.5	622FS	Integration Architect	Integration Architect	4	Updated Integration Standards	Security integration updates
+624	624	7.4.3	SEC-T011		Framework Integration	Task	Auto	Update Transformation & Curation Standards	0.5	623FS	Data Architect	Data Architect	4	Updated Data Standards	Security-related transformations
+625	625	7.4.4	SEC-T012		Framework Integration	Task	Auto	Update Architecture Decision Records (ADRs)	0.5	624FS	Enterprise Architect	Enterprise Architect	4	Updated ADR Package	Update architecture records
+626	626	7.4.5	SEC-T013		Framework Integration	Task	Auto	Update Enterprise Data Ingestion Framework	0.5	625FS	Enterprise Architect	Enterprise Architect	4	Updated Framework	Incorporate approved security controls
+627	627	7.4.6				Milestone	Manual	Security Integration Complete	0	626FS	Tiger Team Lead	Tiger Team Lead	0	Integrated Security Framework	Framework updated
+628	628	7.5				Summary	Manual	Internal Quality Review				Tiger Team Lead		QA Complete	Summary
+629	629	7.5.1	SEC-T014		Internal QA	Task	Auto	Conduct Tiger Team Technical Review	0.5	627FS	Tiger Team	Tiger Team Lead	4	Review Comments	Internal review
+630	630	7.5.2	SEC-T015		Internal QA	Task	Auto	Incorporate Tiger Team Review Comments	0.5	629FS	Enterprise Architect	Enterprise Architect	4	Updated Recommendation	Resolve review comments
+631	631	7.5.3				Milestone	Manual	Internal QA Complete	0	630FS	Tiger Team Lead	Tiger Team Lead	0	QA Approved	Ready for governance
+632	632	7.6				Summary	Manual	JP Governance				JP		JP Endorsement	Summary
+633	633	7.6.1	SEC-T016		JP Governance	Task	Auto	Prepare JP Presentation Package	0.5	631FS	Enterprise Architect	Enterprise Architect	4	JP Briefing Package	Sponsor briefing
+634	634	7.6.2				Milestone	Manual	JP Working Session	0	633FS	JP	JP	0	Review Complete	Sponsor review
+635	635	7.6.3	SEC-T017		JP Governance	Task	Auto	Address JP Comments	0.5	634FS	Enterprise Architect	Enterprise Architect	4	Updated Recommendation	Sponsor updates
+636	636	7.6.4				Milestone	Manual	JP Endorsement	0	635FS	JP	JP	0	Approved Security Integration Package	Authorized for ARB
+637	637	7.7				Summary	Manual	ARB Governance				Enterprise Architect		ARB Approval	Summary
+638	638	7.7.1	SEC-T018		ARB Governance	Task	Auto	Prepare ARB Submission Package	0.5	636FS	Enterprise Architect	Enterprise Architect	4	ARB Submission	Prepare governance package
+639	639	7.7.2				Milestone	Manual	Architecture Review Board Review	0	638FS	ARB	ARB	0	Review Complete	ARB presentation
+640	640	7.7.3	SEC-T019		ARB Governance	Task	Auto	Address ARB Action Items	1	639FS	Enterprise Architect	Enterprise Architect	8	Final Recommendation	Resolve governance comments
+641	641	7.7.4				Milestone	Manual	ARB Approval	0	640FS	ARB	ARB	0	Approved Security Architecture Integration	Governance approval
+642	642	7.8				Summary	Manual	Baseline Update				Project Coordinator		Baseline Updated	Summary
+643	643	7.8.1	SEC-T020		Baseline Update	Task	Auto	Publish Approved Security Architecture Integration Package	0.5	641FS	Project Coordinator	Project Coordinator	4	Published Framework	Publish approved framework
+644	644	7.8.2	SEC-T021		Baseline Update	Task	Auto	Update SharePoint Repository	0.5	643FS	Project Coordinator	Project Coordinator	4	Updated Repository	Archive approved artifacts
+645	645	7.8.3	SEC-T022		Baseline Update	Task	Auto	Notify Stakeholders of Approved Security Integration Baseline	0.5	644FS	Tiger Team Lead	Tiger Team Lead	4	Stakeholder Notification	Notify stakeholders
+646	646	7.8.4				Milestone	Manual	Security Architecture Integration Workstream Complete	0	645FS	Tiger Team Lead	Tiger Team Lead	0	Security Framework Baselined	Workstream complete
+700	700	8				Summary	Manual	Enterprise Data Ingestion Framework Consolidation & Roadmap				Enterprise Architect		Approved Enterprise Data Ingestion Framework	Summary Task
+701	701	8.1				Summary	Manual	Planning				Enterprise Architect		Planning Complete	Summary
+702	702	8.1.1	CON-T001		Planning	Task	Auto	Review Approved Enterprise Architecture Framework	0.5	3.7.4FS	Enterprise Architect	Enterprise Architect	4	Validated Architecture Inputs	Confirm approved architecture
+703	703	8.1.2	CON-T002		Planning	Task	Auto	Review Approved Enterprise Data Framework	0.5	4.7.4FS	Data Architect	Data Architect	4	Validated Data Inputs	Confirm approved data framework
+704	704	8.1.3	CON-T003		Planning	Task	Auto	Review Approved Enterprise Data Movement Framework	0.5	5.7.4FS	Integration Architect	Integration Architect	4	Validated Integration Inputs	Confirm movement framework
+705	705	8.1.4	CON-T004		Planning	Task	Auto	Review Approved Transformation & Curation Framework	0.5	6.7.4FS	Data Architect	Data Architect	4	Validated Transformation Inputs	Confirm transformation framework
+706	706	8.1.5	CON-T005		Planning	Task	Auto	Review Approved Security Architecture Integration	0.5	7.8.4FS	Enterprise Architect	Enterprise Architect	4	Validated Security Inputs	Confirm security integration
+707	707	8.1.6	CON-T006		Planning	Task	Auto	Prepare Framework Consolidation Workshop Materials	0.5	706FS	Enterprise Architect	Enterprise Architect	4	Workshop Package	Prepare integration workshops
+708	708	8.1.7				Milestone	Manual	Framework Consolidation Ready	0	707FS	Tiger Team Lead	Tiger Team Lead	0	Workshop Authorized	Planning complete
+709	709	8.2				Summary	Manual	Framework Consolidation				Enterprise Architect		Integrated Framework	Summary
+710	710	8.2.1	CON-001	CON-001	Decision Development	Task	Auto	Consolidate Enterprise Architecture Recommendations	0.5	708FS	Enterprise Architect	Enterprise Architect	4	Integrated Architecture	Merge approved architecture
+711	711	8.2.2	CON-002	CON-002	Decision Development	Task	Auto	Consolidate Enterprise Data Framework	0.5	710FS	Data Architect	Data Architect	4	Integrated Data Framework	Merge approved data standards
+712	712	8.2.3	CON-003	CON-003	Decision Development	Task	Auto	Consolidate Enterprise Data Movement Framework	0.5	711FS	Integration Architect	Integration Architect	4	Integrated Movement Framework	Merge integration standards
+713	713	8.2.4	CON-004	CON-004	Decision Development	Task	Auto	Consolidate Enterprise Transformation & Curation Framework	0.5	712FS	Data Architect	Data Architect	4	Integrated Transformation Framework	Merge transformation standards
+714	714	8.2.5	CON-005	CON-005	Decision Development	Task	Auto	Integrate Approved Security Architecture	0.5	713FS	Enterprise Architect	Enterprise Architect	4	Security Integrated Framework	Merge approved security controls
+715	715	8.2.6	CON-006	CON-006	Decision Development	Task	Auto	Resolve Cross-Workstream Inconsistencies	1	714FS	Enterprise Architect	Enterprise Architect	8	Harmonized Framework	Resolve overlaps and conflicts
+716	716	8.2.7	CON-007	CON-007	Decision Development	Task	Auto	Validate End-to-End Enterprise Data Flow	0.5	715FS	Enterprise Architect, Integration Architect	Enterprise Architect	4	Validated Data Flow	Validate complete architecture
+717	717	8.2.8				Milestone	Manual	Enterprise Data Ingestion Framework Integrated	0	716FS	Enterprise Architect	Enterprise Architect	0	Integrated Framework	Consolidation complete
+718	718	8.3				Summary	Manual	Implementation Planning				Tiger Team Lead		Implementation Roadmap	Summary
+719	719	8.3.1	CON-T007		Implementation Planning	Task	Auto	Define Implementation Phases	0.5	717FS	Enterprise Architect	Enterprise Architect	4	Implementation Phases	Define execution phases
+720	720	8.3.2	CON-T008		Implementation Planning	Task	Auto	Develop Implementation Work Packages	1	719FS	Tiger Team Lead	Tiger Team Lead	8	Work Package Catalog	Implementation work packages
+721	721	8.3.3	CON-T009		Implementation Planning	Task	Auto	Prioritize Implementation Backlog	0.5	720FS	Enterprise Architect	Enterprise Architect	4	Prioritized Backlog	Prioritized implementation epics
+722	722	8.3.4	CON-T010		Implementation Planning	Task	Auto	Identify Implementation Dependencies	0.5	721FS	Enterprise Architect	Enterprise Architect	4	Dependency Matrix	Implementation dependencies
+723	723	8.3.5	CON-T011		Implementation Planning	Task	Auto	Develop Pilot Implementation Recommendation	0.5	722FS	Enterprise Architect	Enterprise Architect	4	Pilot Recommendation	Recommended pilot scope
+724	724	8.3.6	CON-T012		Implementation Planning	Task	Auto	Develop Enterprise Implementation Roadmap	1	723FS	Tiger Team Lead	Tiger Team Lead	8	Implementation Roadmap	Roadmap for execution
+725	725	8.3.7				Milestone	Manual	Implementation Roadmap Complete	0	724FS	Tiger Team Lead	Tiger Team Lead	0	Approved Roadmap	Roadmap complete
+726	726	8.4				Summary	Manual	Recommendation Package				Enterprise Architect		Recommendation Package	Summary
+727	727	8.4.1	CON-T013		Recommendation	Task	Auto	Develop Enterprise Data Ingestion Framework Document	1	725FS	Enterprise Architect	Enterprise Architect	8	Framework Document	Complete enterprise framework
+728	728	8.4.2	CON-T014		Recommendation	Task	Auto	Finalize Architecture Decision Records (ADRs)	0.5	727FS	Enterprise Architect	Enterprise Architect	4	Final ADR Package	Consolidated ADRs
+729	729	8.4.3	CON-T015		Recommendation	Task	Auto	Finalize Enterprise Standards	0.5	728FS	Enterprise Architect	Enterprise Architect	4	Enterprise Standards	Approved engineering standards
+730	730	8.4.4	CON-T016		Recommendation	Task	Auto	Prepare Executive Readout Package	0.5	729FS	Tiger Team Lead	Tiger Team Lead	4	Executive Briefing	Executive presentation
+731	731	8.4.5				Milestone	Manual	Enterprise Framework Recommendation Complete	0	730FS	Enterprise Architect	Enterprise Architect	0	Executive Review Package	Ready for executive review
+732	732	8.5				Summary	Manual	Internal Quality Review				Tiger Team Lead		QA Complete	Summary
+733	733	8.5.1	CON-T017		Internal QA	Task	Auto	Conduct Final Tiger Team Technical Review	0.5	731FS	Tiger Team	Tiger Team Lead	4	Review Comments	Final internal review
+734	734	8.5.2	CON-T018		Internal QA	Task	Auto	Incorporate Final Review Comments	0.5	733FS	Enterprise Architect	Enterprise Architect	4	Updated Framework	Resolve review comments
+735	735	8.5.3				Milestone	Manual	Internal QA Complete	0	734FS	Tiger Team Lead	Tiger Team Lead	0	QA Approved	Ready for executive review
+736	736	8.6				Summary	Manual	Executive Governance				Executive Sponsor		Executive Acceptance	Summary
+737	737	8.6.1	CON-T019		Executive Governance	Task	Auto	Conduct Executive Readout	0.5	735FS	Tiger Team Lead	Tiger Team Lead	4	Executive Presentation	Present final framework
+738	738	8.6.2				Milestone	Manual	Executive Review Complete	0	737FS	Executive Sponsor	Executive Sponsor	0	Executive Feedback	Executive review completed
+739	739	8.6.3	CON-T020		Executive Governance	Task	Auto	Address Executive Comments	0.5	738FS	Enterprise Architect	Enterprise Architect	4	Updated Framework	Resolve executive comments
+740	740	8.6.4				Milestone	Manual	Executive Acceptance	0	739FS	Executive Sponsor	Executive Sponsor	0	Accepted Enterprise Framework	Framework accepted
+741	741	8.7				Summary	Manual	Publication				Project Coordinator		Framework Published	Summary
+742	742	8.7.1	CON-T021		Publication	Task	Auto	Publish Enterprise Data Ingestion Framework	0.5	740FS	Project Coordinator	Project Coordinator	4	Published Framework	Publish final framework
+743	743	8.7.2	CON-T022		Publication	Task	Auto	Publish Supporting Standards and ADRs	0.5	742FS	Project Coordinator	Project Coordinator	4	Published Standards	Publish supporting artifacts
+744	744	8.7.3	CON-T023		Publication	Task	Auto	Update SharePoint Repository	0.5	743FS	Project Coordinator	Project Coordinator	4	Updated Repository	Archive approved artifacts
+745	745	8.7.4	CON-T024		Publication	Task	Auto	Conduct Enterprise Knowledge Transfer Session	1	744FS	Tiger Team Lead	Tiger Team Lead	8	Knowledge Transfer Complete	Transition to implementation organization
+746	746	8.7.5				Milestone	Manual	Enterprise Data Ingestion Framework Published	0	745FS	Project Sponsor	Project Sponsor	0	Framework Released	Project deliverable complete
+800	800	9				Summary	Manual	Project Closeout & Transition				Tiger Team Lead		Project Successfully Closed	Summary Task
+801	801	9.1				Summary	Manual	Transition Planning				Tiger Team Lead		Transition Plan Complete	Summary
+802	802	9.1.1	CL-T001		Transition Planning	Task	Auto	Identify Implementation Organization(s)	0.5	8.7.5FS	Project Sponsor	Project Sponsor	4	Implementation Ownership Matrix	Identify receiving organizations
+803	803	9.1.2	CL-T002		Transition Planning	Task	Auto	Confirm Product Owners and Technical Leads	0.5	802FS	Project Sponsor	Project Sponsor	4	Ownership Assignments	Assign long-term ownership
+804	804	9.1.3	CL-T003		Transition Planning	Task	Auto	Develop Transition Plan	0.5	803FS	Tiger Team Lead	Tiger Team Lead	4	Transition Plan	Document transition activities
+805	805	9.1.4				Milestone	Manual	Transition Plan Approved	0	804FS	Project Sponsor	Project Sponsor	0	Approved Transition Plan	Transition planning complete
+806	806	9.2				Summary	Manual	Deliverable Transition				Project Coordinator		Deliverables Transitioned	Summary
+807	807	9.2.1	CL-T004		Deliverable Transition	Task	Auto	Transfer Enterprise Architecture Package	0.5	805FS	Enterprise Architect	Enterprise Architect	4	Architecture Package Transferred	Transfer approved architecture package
+808	808	9.2.2	CL-T005		Deliverable Transition	Task	Auto	Transfer Enterprise Data Framework Package	0.5	807FS	Data Architect	Data Architect	4	Data Framework Package Transferred	Transfer approved data framework
+809	809	9.2.3	CL-T006		Deliverable Transition	Task	Auto	Transfer Enterprise Data Movement Framework Package	0.5	808FS	Integration Architect	Integration Architect	4	Movement Framework Package Transferred	Transfer approved movement framework
+810	810	9.2.4	CL-T007		Deliverable Transition	Task	Auto	Transfer Enterprise Transformation & Curation Framework Package	0.5	809FS	Data Architect	Data Architect	4	Transformation Package Transferred	Transfer approved transformation framework
+811	811	9.2.5	CL-T008		Deliverable Transition	Task	Auto	Transfer Enterprise Data Ingestion Framework & Roadmap	0.5	810FS	Tiger Team Lead	Tiger Team Lead	4	Framework & Roadmap Transferred	Transfer final framework
+812	812	9.2.6				Milestone	Manual	Deliverables Successfully Transitioned	0	811FS	Project Sponsor	Project Sponsor	0	Transition Complete	Ownership transferred
+813	813	9.3				Summary	Manual	Lessons Learned				Tiger Team Lead		Lessons Learned Complete	Summary
+814	814	9.3.1	CL-T009		Lessons Learned	Task	Auto	Conduct Tiger Team Retrospective	0.5	812FS	Tiger Team Lead	Tiger Team Lead	4	Retrospective Notes	Conduct project retrospective
+815	815	9.3.2	CL-T010		Lessons Learned	Task	Auto	Document Lessons Learned	0.5	814FS	Project Coordinator	Project Coordinator	4	Lessons Learned Report	Document project lessons
+816	816	9.3.3	CL-T011		Lessons Learned	Task	Auto	Develop Continuous Improvement Recommendations	0.5	815FS	Tiger Team Lead	Tiger Team Lead	4	Improvement Recommendations	Recommendations for future Tiger Teams
+817	817	9.3.4				Milestone	Manual	Lessons Learned Complete	0	816FS	Tiger Team Lead	Tiger Team Lead	0	Lessons Learned Approved	Lessons finalized
+818	818	9.4				Summary	Manual	Future Implementation Recommendations				Enterprise Architect		Phase II Recommendations	Summary
+819	819	9.4.1	CL-T012		Future Recommendations	Task	Auto	Identify Phase II Implementation Opportunities	0.5	817FS	Enterprise Architect	Enterprise Architect	4	Phase II Opportunities	Identify future implementation scope
+820	820	9.4.2	CL-T013		Future Recommendations	Task	Auto	Identify Future Enterprise Capabilities	0.5	819FS	Enterprise Architect	Enterprise Architect	4	Capability Roadmap	Future-state capabilities
+821	821	9.4.3	CL-T014		Future Recommendations	Task	Auto	Prioritize Future Enhancement Backlog	0.5	820FS	Enterprise Architect	Enterprise Architect	4	Enhancement Backlog	Prioritized future work
+822	822	9.4.4				Milestone	Manual	Future Recommendations Complete	0	821FS	Project Sponsor	Project Sponsor	0	Future Roadmap Approved	Recommendations complete
+823	823	9.5				Summary	Manual	Administrative Closeout				Tiger Team Lead		Project Closed	Summary
+824	824	9.5.1	CL-T015		Administrative Closeout	Task	Auto	Verify All Deliverables Accepted	0.5	822FS	Project Coordinator	Project Coordinator	4	Acceptance Verification	Confirm acceptance of all deliverables
+825	825	9.5.2	CL-T016		Administrative Closeout	Task	Auto	Archive Project Documentation	0.5	824FS	Project Coordinator	Project Coordinator	4	Archived Project Records	Archive all project artifacts
+826	826	9.5.3	CL-T017		Administrative Closeout	Task	Auto	Archive Architecture Decision Records (ADRs)	0.5	825FS	Enterprise Architect	Enterprise Architect	4	Archived ADR Repository	Archive decision history
+827	827	9.5.4	CL-T018		Administrative Closeout	Task	Auto	Archive Decision Register, Deliverables Register, and RAID Log	0.5	826FS	Project Coordinator	Project Coordinator	4	Archived Project Registers	Archive supporting registers
+828	828	9.5.5	CL-T019		Administrative Closeout	Task	Auto	Release Tiger Team Resources	0.5	827FS	Project Sponsor	Project Sponsor	4	Resources Released	Release project resources
+829	829	9.5.6	CL-T020		Administrative Closeout	Task	Auto	Close Project Financial and Administrative Records	0.5	828FS	Project Coordinator	Project Coordinator	4	Administrative Closeout	Complete administrative closure
+830	830	9.5.7				Milestone	Manual	Tiger Team Complete	0	829FS	Project Sponsor	Project Sponsor	0	Project Formally Closed	Formal project closure
